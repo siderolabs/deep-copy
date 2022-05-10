@@ -208,7 +208,7 @@ func generateFunc(p *packages.Package, obj object, imports map[string]string, sk
 	kind := obj.Obj().Name()
 
 	source := "o"
-	fmt.Fprintf(&buf, `// DeepCopy generates a deep copy of %s%s
+	fmt.Fprintf(&buf, `// DeepCopy generates a deep copy of %s%s.
 func (o %s%s) DeepCopy() %s%s {
 	var cp %s = %s%s
 `, ptr, kind, ptr, kind, ptr, kind, kind, ptr, source)
