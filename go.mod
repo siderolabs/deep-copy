@@ -1,6 +1,6 @@
-module github.com/globusdigital/deep-copy
+module github.com/siderolabs/deep-copy
 
-go 1.13
+go 1.18
 
 require (
 	github.com/google/go-cmp v0.5.5
