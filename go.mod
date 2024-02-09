@@ -1,8 +1,10 @@
 module github.com/siderolabs/deep-copy
 
-go 1.18
+go 1.22.0
 
 require (
-	github.com/google/go-cmp v0.5.5
-	golang.org/x/tools v0.0.0-20200107050322-53017a39ae36
+	github.com/google/go-cmp v0.6.0
+	golang.org/x/tools v0.17.0
 )
+
+require golang.org/x/mod v0.15.0 // indirect
